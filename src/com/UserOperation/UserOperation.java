@@ -41,6 +41,7 @@ public class UserOperation
 			BuyProduct buyProduct = new BuyProduct();
 			buyProduct.getBuyProduct();
 		}
+		scanner.close();
 	}
 	}
 
