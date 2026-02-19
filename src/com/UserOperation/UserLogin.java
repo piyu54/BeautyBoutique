@@ -49,5 +49,6 @@ public class UserLogin
 			preparedStatement.close();
 			resultSet.close();
 		}
+		scanner.close();
 	}
 }
