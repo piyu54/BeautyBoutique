@@ -31,5 +31,6 @@ public class Home
 			GuestOperation guestOperation=new GuestOperation();
 			guestOperation.getGuestOperation();
 		}
+		scanner.close();
 		}
 }
