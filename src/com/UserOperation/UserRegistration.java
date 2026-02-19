@@ -58,6 +58,7 @@ public class UserRegistration
 			connection.close();
 			preparedStatement.close();
 		}
+		scanner.close();
 	}
 
 	
