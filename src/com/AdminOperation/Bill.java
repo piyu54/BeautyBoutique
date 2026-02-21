@@ -10,7 +10,7 @@ import java.util.Scanner;
 import com.ShopNow.Main.ConnectionTest;
 import com.UserOperation.ViewProducts;
 
-
+//
 
 public class Bill 
 {
