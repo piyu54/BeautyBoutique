@@ -86,7 +86,7 @@ public class Bill
 				     }*/
 	                 //  Bill bill=new Bill();
 	                //   bill.getBill(pPrice, pPrice, pPrice);
-	                   	System.out.println(" Thank you for shopping !!!!");
+	                   	System.out.println(" Thank you for shopping !!!!!");
 						System.out.println("Have A Good Day....... ");
 				}
 
