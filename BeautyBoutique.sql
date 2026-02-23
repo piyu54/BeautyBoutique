@@ -187,5 +187,5 @@ CREATE TABLE cart (
     ProductPrice VARCHAR(255),
     Total INT(50)
 );
-SELECT userregistration.RegistrationId,FirstName,LastName,City,MobileNumber,product.ProductId,ProductName,AvailableQuantity,ProductPrice from userregistration
-INNER join Product on userregistration.RegistrationId=product.RegistrationId where UserName='batman';
+SELECT userregistration.RegistrationId,FirstName,LastName,City,MobileNumber,allproduct.ProductId,ProductName,AvailableQuantity,ProductPrice from userregistration
+INNER join allProduct on userregistration.RegistrationId=allproduct.RegistrationId where UserName='batman';
