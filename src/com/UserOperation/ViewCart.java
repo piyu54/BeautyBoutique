@@ -40,6 +40,8 @@ public class ViewCart
 					bill.getBill(id, quantity, price);
 
 				} else if (string.contains("no")) {
+					System.out.println(" Thank you  !!!!!");
+					System.out.println("Have A Good Day....... ");
 					break;
 				}
 			}
