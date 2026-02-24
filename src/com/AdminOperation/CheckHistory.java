@@ -22,10 +22,10 @@ public class CheckHistory
 			ConnectionTest connectionTest = new ConnectionTest();
 			 Connection connection1 = connectionTest.getConnection();
 			PreparedStatement preparedStatement1 = connection1
-					.prepareStatement("select * from UserRegistration,product where username=?,");
+					.prepareStatement("select * from userregistration,allproduct where username=?");
 			
-		//	String username = " ";
-		//	String username1 = userName;
+//			String username = " ";
+//			String username1 = userName;
 			preparedStatement1.setString(1, UName);
 			ResultSet resultSet = preparedStatement1.executeQuery();
 			while (resultSet.next()) {
