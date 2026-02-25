@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 import com.ShopNow.Main.ConnectionTest;
-
+//check history
 public class CheckHistory 
 {
 	public void getCheckHistory(String userName) throws SQLException 
