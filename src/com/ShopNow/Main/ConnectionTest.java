@@ -2,7 +2,7 @@ package com.ShopNow.Main;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-
+//
 public class ConnectionTest 
 {
 	public Connection getConnection() {
