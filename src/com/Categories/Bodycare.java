@@ -12,7 +12,7 @@ import com.AdminOperation.BuyProduct;
 import com.ShopNow.Main.ConnectionTest;
 import com.UserOperation.NameComparator;
 import com.UserOperation.ViewProducts;
-//
+
 public class Bodycare 
 {
 	int pId;
