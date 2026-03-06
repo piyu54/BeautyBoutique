@@ -9,6 +9,7 @@ import com.UserOperation.UserRegistration;
 
 public class GuestOperation 
 {
+	//
 	public void getGuestOperation() throws SQLException {
 	System.out.println("************Firstly you have to Register to buy a Product**************");
 		
